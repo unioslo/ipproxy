@@ -1,0 +1,6 @@
+{
+  "logPrefix": "",
+  "listenPort": "8080",
+  "proxyToHost": "localhost",
+  "proxyToPort": "9080"
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>ipproxy</title>
+  </head>
+  <body>
+    <h1><a href="https://github.com/unioslo/ipproxy">ipproxy</a></h1>
+    <p>
+      Proxy to zero the last octet of the ip-address from Google Analytics client requests to /collect 
+      and then pass them along to Analytics using the 
+      <a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/">Google Analytics Measurement Protocol</a>.
+    </p>
+    <p>
+      Mainly useful if you prefer to do ip-address anonymization yourself (e.g. to conform with local legal requirements).
+    </p>
+    <p>
+      For this to have any purpose, you need to prevent analytics.js hitting Google, and make it hit this proxy instead 
+      (e.g. using <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/tasks">tasks</a>)
+    </p>
+  </body>
+</html>
