@@ -1,6 +1,7 @@
 TODO:
 - Rotation for access log using morgan, need rotating stream (e.g. file-stream-rotator, find right one)
 - errors and warnings to other log file than info?
+- option to not produce access log for cases where it is not needed
 - find user ip only once, not both in morgan and in collect
 - Currently IP4 only. Keep it that way?
 
