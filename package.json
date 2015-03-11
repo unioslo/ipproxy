@@ -1,7 +1,7 @@
 {
   "name": "ipproxy",
   "description": "Proxy to zero the last octet of the ip-address from analytics requests and then pass them along to Google.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "University of Oslo, Norway"

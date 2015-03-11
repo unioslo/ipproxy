@@ -2,5 +2,6 @@
   "logPrefix": "",
   "listenPort": "8080",
   "proxyToHost": "www.google-analytics.com",
-  "proxyToPort": "80"
+  "proxyToPort": "80",
+  "accessLogging": "N"
 }

@@ -2,5 +2,6 @@
   "logPrefix": "",
   "listenPort": "8080",
   "proxyToHost": "localhost",
-  "proxyToPort": "9080"
+  "proxyToPort": "9080",
+  "accessLogging": "Y"
 }
