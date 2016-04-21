@@ -118,7 +118,9 @@ ga(function(tracker) {
     xhr.send();
   });
 
-ga('send', 'pageview');
+  ga('send', 'pageview');
+});
+
 ```
 #### Set up multiple trackers and send pageview to all of them
 
